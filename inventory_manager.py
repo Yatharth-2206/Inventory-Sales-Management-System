@@ -43,7 +43,7 @@ def add_product():
             print("Product ID already exists. Use 'Update Stock' instead.")
             return
 
-        name = input("Enter Product Name: ").strip().title()
+        name = input("\nEnter Product Name: ").strip().title()
         category = input("Enter Product Category: ").strip().title()
         price = float(input("Enter Product Price(INR): "))
         stock = int(input("Enter Initial Stock Quantity: "))
@@ -91,7 +91,7 @@ def update_stock():
     product = inventory[product_id]
     previous_stock = product["stock"]
     try:
-        additional_stock = int(input("Enter quantity to add to stock: "))
+        additional_stock = int(input("\nEnter quantity to add to stock: "))
         if additional_stock <= 0:
             print("Stock quantity cannot be zero or negative.")
             return
@@ -123,7 +123,7 @@ def sell_product():
     product = inventory[product_id]
 
     try:
-        quantity = int(input("Enter quantity to sell: "))
+        quantity = int(input("\nEnter quantity to sell: "))
         if quantity <= 0:
             print("Quantity must be greater than zero.")
             return
@@ -134,7 +134,7 @@ def sell_product():
 
         subtotal = quantity * product["price"]
 
-        discount_percentage = float(input("Enter discount percentage (%): "))
+        discount_percentage = float(input("\nEnter discount percentage (%): "))
 
         if not 0 <= discount_percentage <= 100:
             print("Discount percentage must be between 0 and 100.")
@@ -172,7 +172,7 @@ def sell_product():
         product["sales_history"].append(sale_record)
 
         print(
-            f"Sold {quantity} units of '{product['name']}'. Total price: INR {sale_record['grand_total']}"
+            f"\nSold {quantity} units of '{product['name']}'. Total price: INR {sale_record['grand_total']}"
         )
 
         choice = input("\nGenerate Invoice? (Y/N): ").strip().upper()
@@ -227,7 +227,7 @@ def low_stock_report():
         return
 
     for product_id, details in low_stock_products:
-        print("-" * 60)
+        print("\n-" * 60)
         print(f"Product ID      : {product_id}")
         print(f"Product Name    : {details['name']}")
         print(f"Current Stock   : {details['stock']} Units")
@@ -378,7 +378,6 @@ def save_data():
     """
     Function to save inventory and sales data to JSON files.
     """
-    print("\nSAVING DATA...")
 
     try:
 

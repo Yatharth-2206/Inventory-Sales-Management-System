@@ -40,7 +40,7 @@ def main_menu():
         print("12. Exit")
         print("=" * 50)
 
-        choice = input("Enter your choice (1-12): ").strip()
+        choice = input("\nEnter your choice (1-12): ").strip()
 
         if choice == "1":
             add_product()
