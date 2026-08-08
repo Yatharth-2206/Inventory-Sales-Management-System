@@ -1,14 +1,14 @@
 [
-    "Accessories",
-    "Audio",
-    "Bags",
     "Cables",
-    "Computer Peripherals",
-    "Electronics",
-    "Mobile Accessories",
-    "Networking",
+    "Audio",
     "Office Equipment",
-    "Power & Utilities",
+    "Electronics",
     "Stationery",
-    "Storage"
+    "Storage",
+    "Networking",
+    "Bags",
+    "Mobile Accessories",
+    "Accessories",
+    "Computer Peripherals",
+    "Power & Utilities"
 ]

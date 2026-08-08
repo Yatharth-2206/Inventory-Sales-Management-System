@@ -227,7 +227,7 @@ def low_stock_report():
         return
 
     for product_id, details in low_stock_products:
-        print("\n-" * 60)
+        print("-" * 60)
         print(f"Product ID      : {product_id}")
         print(f"Product Name    : {details['name']}")
         print(f"Current Stock   : {details['stock']} Units")
