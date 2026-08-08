@@ -216,9 +216,6 @@ def low_stock_report():
     """
     Function to generate a report of products with low stock.
     """
-
-    print("\nLOW STOCK REPORT")
-
     low_stock_products = []
 
     for product_id, details in inventory.items():
@@ -282,7 +279,6 @@ def unique_categories():
     """
     Function to display all unique product categories.
     """
-    print("\nUNIQUE PRODUCT CATEGORIES")
 
     if not categories_set:
         print("No categories available.")
@@ -300,7 +296,6 @@ def unique_products_sold_today():
     """
     Function to display all unique products sold today.
     """
-    print("\nDaily Sales Report")
 
     today = datetime.now().strftime("%Y-%m-%d")
     unique_products_today = set()
