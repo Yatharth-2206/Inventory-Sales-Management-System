@@ -1,1 +1,1 @@
-# Inventory & Sales Management Systemgit init
+# Inventory & Sales Management System

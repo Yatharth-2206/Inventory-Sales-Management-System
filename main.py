@@ -11,6 +11,7 @@ stock updates, reports, and data persistence using JSON.
 
 from inventory_manager import *
 
+
 def main_menu():
     """
     Main menu function to display options and handle user input.
@@ -38,7 +39,6 @@ def main_menu():
         print("11. Load Data")
         print("12. Exit")
         print("=" * 50)
-       
 
         choice = input("Enter your choice (1-12): ").strip()
 
@@ -53,19 +53,19 @@ def main_menu():
             press_enter()
         elif choice == "4":
             search_product()
-            press_enter()   
+            press_enter()
         elif choice == "5":
             low_stock_report()
             press_enter()
         elif choice == "6":
             category_summary()
-            press_enter()   
+            press_enter()
         elif choice == "7":
             unique_categories()
             press_enter()
         elif choice == "8":
             unique_products_sold_today()
-            press_enter()   
+            press_enter()
         elif choice == "9":
             generate_invoice()
             press_enter()
@@ -87,7 +87,3 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
-
-
-
-
