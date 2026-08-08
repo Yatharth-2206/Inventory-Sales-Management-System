@@ -1,24 +1,422 @@
 {
     "P001": {
-        "name": "Keyboard",
-        "category": "Accesories",
-        "price": 500.0,
-        "stock": 28,
-        "sales_history": [
-            {
-                "product_id": "P001",
-                "name": "Keyboard",
-                "quantity": 2,
-                "subtotal": 1000.0,
-                "discount_percentage": 10.0,
-                "discount_amount": 100.0,
-                "gst_percentage": 18.0,
-                "gst_amount": 162.0,
-                "grand_total": 1062.0,
-                "sale_date": "2026-08-08",
-                "sale_time": "10:42:07",
-                "sale_datetime": "2026-08-08 10:42:07"
-            }
-        ]
+        "name": "Wireless Mouse",
+        "category": "Electronics",
+        "price": 837.0,
+        "stock": 3,
+        "sales_history": []
+    },
+    "P002": {
+        "name": "USB Keyboard",
+        "category": "Electronics",
+        "price": 974.0,
+        "stock": 7,
+        "sales_history": []
+    },
+    "P003": {
+        "name": "Bluetooth Speaker",
+        "category": "Electronics",
+        "price": 1111.0,
+        "stock": 0,
+        "sales_history": []
+    },
+    "P004": {
+        "name": "Portable Monitor",
+        "category": "Electronics",
+        "price": 1248.0,
+        "stock": 12,
+        "sales_history": []
+    },
+    "P005": {
+        "name": "Smart LED Lamp",
+        "category": "Electronics",
+        "price": 1385.0,
+        "stock": 18,
+        "sales_history": []
+    },
+    "P006": {
+        "name": "HDMI Cable",
+        "category": "Cables",
+        "price": 1022.0,
+        "stock": 25,
+        "sales_history": []
+    },
+    "P007": {
+        "name": "USB-C Cable",
+        "category": "Cables",
+        "price": 1159.0,
+        "stock": 35,
+        "sales_history": []
+    },
+    "P008": {
+        "name": "DisplayPort Cable",
+        "category": "Cables",
+        "price": 1296.0,
+        "stock": 50,
+        "sales_history": []
+    },
+    "P009": {
+        "name": "Ethernet Cable",
+        "category": "Cables",
+        "price": 1433.0,
+        "stock": 9,
+        "sales_history": []
+    },
+    "P010": {
+        "name": "Lightning Cable",
+        "category": "Cables",
+        "price": 269.0,
+        "stock": 15,
+        "sales_history": []
+    },
+    "P011": {
+        "name": "Laptop Stand",
+        "category": "Accessories",
+        "price": 2007.0,
+        "stock": 3,
+        "sales_history": []
+    },
+    "P012": {
+        "name": "Desk Mat",
+        "category": "Accessories",
+        "price": 2144.0,
+        "stock": 7,
+        "sales_history": []
+    },
+    "P013": {
+        "name": "Cable Organizer",
+        "category": "Accessories",
+        "price": 2281.0,
+        "stock": 0,
+        "sales_history": []
+    },
+    "P014": {
+        "name": "Monitor Arm",
+        "category": "Accessories",
+        "price": 2418.0,
+        "stock": 12,
+        "sales_history": []
+    },
+    "P015": {
+        "name": "Laptop Sleeve",
+        "category": "Accessories",
+        "price": 2555.0,
+        "stock": 18,
+        "sales_history": []
+    },
+    "P016": {
+        "name": "Webcam",
+        "category": "Computer Peripherals",
+        "price": 2892.0,
+        "stock": 25,
+        "sales_history": []
+    },
+    "P017": {
+        "name": "Mechanical Keyboard",
+        "category": "Computer Peripherals",
+        "price": 3029.0,
+        "stock": 35,
+        "sales_history": []
+    },
+    "P018": {
+        "name": "Gaming Mouse",
+        "category": "Computer Peripherals",
+        "price": 3166.0,
+        "stock": 50,
+        "sales_history": []
+    },
+    "P019": {
+        "name": "Numeric Keypad",
+        "category": "Computer Peripherals",
+        "price": 3303.0,
+        "stock": 9,
+        "sales_history": []
+    },
+    "P020": {
+        "name": "USB Hub",
+        "category": "Computer Peripherals",
+        "price": 3440.0,
+        "stock": 15,
+        "sales_history": []
+    },
+    "P021": {
+        "name": "Wireless Headphones",
+        "category": "Audio",
+        "price": 3477.0,
+        "stock": 3,
+        "sales_history": []
+    },
+    "P022": {
+        "name": "Earbuds",
+        "category": "Audio",
+        "price": 3614.0,
+        "stock": 7,
+        "sales_history": []
+    },
+    "P023": {
+        "name": "Wired Earphones",
+        "category": "Audio",
+        "price": 3751.0,
+        "stock": 0,
+        "sales_history": []
+    },
+    "P024": {
+        "name": "Conference Speaker",
+        "category": "Audio",
+        "price": 3888.0,
+        "stock": 12,
+        "sales_history": []
+    },
+    "P025": {
+        "name": "Desktop Speakers",
+        "category": "Audio",
+        "price": 4025.0,
+        "stock": 18,
+        "sales_history": []
+    },
+    "P026": {
+        "name": "Power Bank",
+        "category": "Mobile Accessories",
+        "price": 3962.0,
+        "stock": 25,
+        "sales_history": []
+    },
+    "P027": {
+        "name": "Phone Charger",
+        "category": "Mobile Accessories",
+        "price": 4099.0,
+        "stock": 35,
+        "sales_history": []
+    },
+    "P028": {
+        "name": "Wireless Charger",
+        "category": "Mobile Accessories",
+        "price": 4236.0,
+        "stock": 50,
+        "sales_history": []
+    },
+    "P029": {
+        "name": "Car Phone Holder",
+        "category": "Mobile Accessories",
+        "price": 4373.0,
+        "stock": 9,
+        "sales_history": []
+    },
+    "P030": {
+        "name": "Phone Stand",
+        "category": "Mobile Accessories",
+        "price": 409.0,
+        "stock": 15,
+        "sales_history": []
+    },
+    "P031": {
+        "name": "Laptop Backpack",
+        "category": "Bags",
+        "price": 5047.0,
+        "stock": 3,
+        "sales_history": []
+    },
+    "P032": {
+        "name": "Travel Backpack",
+        "category": "Bags",
+        "price": 5184.0,
+        "stock": 7,
+        "sales_history": []
+    },
+    "P033": {
+        "name": "Messenger Bag",
+        "category": "Bags",
+        "price": 5321.0,
+        "stock": 0,
+        "sales_history": []
+    },
+    "P034": {
+        "name": "Laptop Briefcase",
+        "category": "Bags",
+        "price": 5458.0,
+        "stock": 12,
+        "sales_history": []
+    },
+    "P035": {
+        "name": "Tech Organizer",
+        "category": "Bags",
+        "price": 894.0,
+        "stock": 18,
+        "sales_history": []
+    },
+    "P036": {
+        "name": "Notebook",
+        "category": "Stationery",
+        "price": 686.0,
+        "stock": 25,
+        "sales_history": []
+    },
+    "P037": {
+        "name": "Gel Pen Set",
+        "category": "Stationery",
+        "price": 102.0,
+        "stock": 35,
+        "sales_history": []
+    },
+    "P038": {
+        "name": "Marker Set",
+        "category": "Stationery",
+        "price": 239.0,
+        "stock": 50,
+        "sales_history": []
+    },
+    "P039": {
+        "name": "Sticky Notes",
+        "category": "Stationery",
+        "price": 376.0,
+        "stock": 9,
+        "sales_history": []
+    },
+    "P040": {
+        "name": "Desk Planner",
+        "category": "Stationery",
+        "price": 513.0,
+        "stock": 15,
+        "sales_history": []
+    },
+    "P041": {
+        "name": "External SSD",
+        "category": "Storage",
+        "price": 6217.0,
+        "stock": 3,
+        "sales_history": []
+    },
+    "P042": {
+        "name": "USB Flash Drive",
+        "category": "Storage",
+        "price": 6354.0,
+        "stock": 7,
+        "sales_history": []
+    },
+    "P043": {
+        "name": "External HDD",
+        "category": "Storage",
+        "price": 6491.0,
+        "stock": 0,
+        "sales_history": []
+    },
+    "P044": {
+        "name": "Memory Card",
+        "category": "Storage",
+        "price": 6628.0,
+        "stock": 12,
+        "sales_history": []
+    },
+    "P045": {
+        "name": "Card Reader",
+        "category": "Storage",
+        "price": 6765.0,
+        "stock": 18,
+        "sales_history": []
+    },
+    "P046": {
+        "name": "Wi-Fi Router",
+        "category": "Networking",
+        "price": 1201.0,
+        "stock": 25,
+        "sales_history": []
+    },
+    "P047": {
+        "name": "Network Switch",
+        "category": "Networking",
+        "price": 1338.0,
+        "stock": 35,
+        "sales_history": []
+    },
+    "P048": {
+        "name": "USB Wi-Fi Adapter",
+        "category": "Networking",
+        "price": 1475.0,
+        "stock": 50,
+        "sales_history": []
+    },
+    "P049": {
+        "name": "Range Extender",
+        "category": "Networking",
+        "price": 1612.0,
+        "stock": 9,
+        "sales_history": []
+    },
+    "P050": {
+        "name": "LAN Adapter",
+        "category": "Networking",
+        "price": 1749.0,
+        "stock": 15,
+        "sales_history": []
+    },
+    "P051": {
+        "name": "Barcode Scanner",
+        "category": "Office Equipment",
+        "price": 9487.0,
+        "stock": 3,
+        "sales_history": []
+    },
+    "P052": {
+        "name": "Receipt Printer",
+        "category": "Office Equipment",
+        "price": 9624.0,
+        "stock": 7,
+        "sales_history": []
+    },
+    "P053": {
+        "name": "Label Printer",
+        "category": "Office Equipment",
+        "price": 9761.0,
+        "stock": 0,
+        "sales_history": []
+    },
+    "P054": {
+        "name": "Document Scanner",
+        "category": "Office Equipment",
+        "price": 9898.0,
+        "stock": 12,
+        "sales_history": []
+    },
+    "P055": {
+        "name": "Paper Shredder",
+        "category": "Office Equipment",
+        "price": 10035.0,
+        "stock": 18,
+        "sales_history": []
+    },
+    "P056": {
+        "name": "Surge Protector",
+        "category": "Power & Utilities",
+        "price": 8172.0,
+        "stock": 25,
+        "sales_history": []
+    },
+    "P057": {
+        "name": "Extension Board",
+        "category": "Power & Utilities",
+        "price": 8309.0,
+        "stock": 35,
+        "sales_history": []
+    },
+    "P058": {
+        "name": "UPS",
+        "category": "Power & Utilities",
+        "price": 8446.0,
+        "stock": 50,
+        "sales_history": []
+    },
+    "P059": {
+        "name": "Rechargeable Batteries",
+        "category": "Power & Utilities",
+        "price": 8583.0,
+        "stock": 9,
+        "sales_history": []
+    },
+    "P060": {
+        "name": "Power Strip",
+        "category": "Power & Utilities",
+        "price": 8720.0,
+        "stock": 15,
+        "sales_history": []
     }
 }

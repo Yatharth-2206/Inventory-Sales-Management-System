@@ -1,16 +1,1 @@
-[
-    {
-        "product_id": "P001",
-        "name": "Keyboard",
-        "quantity": 2,
-        "subtotal": 1000.0,
-        "discount_percentage": 10.0,
-        "discount_amount": 100.0,
-        "gst_percentage": 18.0,
-        "gst_amount": 162.0,
-        "grand_total": 1062.0,
-        "sale_date": "2026-08-08",
-        "sale_time": "10:42:07",
-        "sale_datetime": "2026-08-08 10:42:07"
-    }
-]
+[]
