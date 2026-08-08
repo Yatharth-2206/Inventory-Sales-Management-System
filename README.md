@@ -47,22 +47,22 @@ Small and medium retail stores often manage inventory and billing manually, lead
 ## 🖥️ Demo
 
 **Main Menu**
-![Main Menu](screenshots/1__main-menu.png)
+![Main Menu](screenshot/1__main-menu.png)
 
 **Add Product**
-![Add Product](screenshots/2__product-management.png)
+![Add Product](screenshot/2__product-management.png)
 
 **Sell Product**
-![Sell Product](screenshots/3__sale-details.png)
+![Sell Product](screenshot/3__sale-details.png)
 
 **Sales Invoice**
-![Sales Invoice](screenshots/4__sales-invoice.png)
+![Sales Invoice](screenshot/4__sales-invoice.png)
 
 **Category Summary**
-![Category Summary](screenshots/5__category-summary.png)
+![Category Summary](screenshot/5__category-summary.png)
 
 **Data Saving**
-![Data Saving](screenshots/6__data-saving.png)
+![Data Saving](screenshot/6__data-saving.png)
 
 ## 🚀 How to Run
 
