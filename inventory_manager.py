@@ -28,12 +28,6 @@ GST_PERCENTAGE = 18.0  # GST percentage for all products
 
 STOCK_THRESHOLD = 15  # Default threshold for low stock report
 
-INVENTORY_FILE = "doc/inventory.json"  # File to store inventory data
-
-SALES_LOG_FILE = "doc/sales_log.json"
-
-CATEGORIES_FILE = "doc/categories.json"
-
 
 def add_product():
     """
@@ -393,17 +387,17 @@ def save_data():
 
     try:
 
-        with open("INVENTORY_FILE", "w") as inventory_file:
+        with open("data/inventory.json", "w") as inventory_file:
             json.dump(inventory, inventory_file, indent=4)
-        with open("SALES_LOG_FILE", "w") as sales_file:
+        with open("data/sales_log.json", "w") as sales_file:
             json.dump(sales_log, sales_file, indent=4)
-        with open("CATEGORIES_FILE", "w") as category_file:
+        with open("data/categories.json", "w") as category_file:
             json.dump(list(categories_set), category_file, indent=4)
         print("\n✓ DATA SAVED SUCCESSFULLY")
         print("-" * 60)
-        print(f"Inventory File    : {INVENTORY_FILE}")
-        print(f"Sales Log File    : {SALES_LOG_FILE}")
-        print(f"Categories File   : {CATEGORIES_FILE}")
+        print(f"Inventory File    : inventory.json")
+        print(f"Sales Log File    : sales_log.json")
+        print(f"Categories File   : categories.json")
         print("-" * 60)
 
     except Exception as e:
@@ -417,11 +411,11 @@ def load_data():
     global inventory, sales_log, categories_set
 
     try:
-        with open(INVENTORY_FILE, "r") as inventory_file:
+        with open("data/inventory.json", "r") as inventory_file:
             inventory = json.load(inventory_file)
-        with open(SALES_LOG_FILE, "r") as sales_file:
+        with open("data/sales_log.json", "r") as sales_file:
             sales_log = json.load(sales_file)
-        with open(CATEGORIES_FILE, "r") as category_file:
+        with open("data/categories.json", "r") as category_file:
             categories_set = set(json.load(category_file))
         print("\n✓ DATA LOADED SUCCESSFULLY")
         print("-" * 60)
